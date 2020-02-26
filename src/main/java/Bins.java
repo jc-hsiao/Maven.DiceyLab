@@ -14,4 +14,8 @@ public class Bins {
         m.replace(num, m.get(num)+1);
     }
 
+    public int getBin(int num){
+        return m.get(num);
+    }
+
 }
